@@ -1,5 +1,5 @@
 html {
-    background-color: lightblue;
+    background-color: whitesmoke;
 }
 
 #root {
@@ -11,10 +11,30 @@ html {
 
 #title{
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-shadow: 0.5px 0.5px 0.5px lightgray;
 }
+
+#player-colors {
+    display: flex;
+}
+
+#p-1-color{
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 0 auto;
+    color: chartreuse;
+}
+
+#p-2-color{
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 0 auto;
+    color: cornflowerblue;
+}
+
 #layout {
     position: relative;
+    border: 1px solid green;
+    box-shadow: 6px 6px 6px darkgray;
     background-color: whitesmoke;
     margin: 4px;
     border-radius: 4px;
@@ -26,17 +46,16 @@ html {
 }
 
 .square {
-    
     background-color: cyan;
-    margin: 4px;
-    padding: 48px;
+    padding: 72px;
     border: 1px solid blue;
-    border-radius: 4px;
 }
 
 .square:hover{
-   border: 1px solid lime;
+   border: 1px dashed yellow;
+   box-shadow: 0px 0px 8px yellow; 
 }
+
 
 .X {
     background-color: chartreuse;
@@ -54,6 +73,7 @@ html {
     margin: 8px;
     padding: 8px;
     border: none;
+    box-shadow: 6px 6px 6px darkgray;
     border-radius: 4px;
     background-color: cyan;
     color: blue;
